@@ -14,8 +14,8 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://mediibooker.netlify.app",
-      "https://www.mediibooker.netlify.app",
+      "https://mediibooker.netlify.app/",
+      "https://www.mediibooker.netlify.app/",
     ],
     credentials: true,
   })
