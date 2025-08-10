@@ -13,7 +13,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: [
+      "https://mediibooker.netlify.app",
+      "https://www.mediibooker.netlify.app",
+    ],
     credentials: true,
   })
 );
