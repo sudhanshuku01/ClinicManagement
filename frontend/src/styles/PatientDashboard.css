@@ -1,0 +1,82 @@
+/* Main container */
+.pd-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.pd-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pd-header h2 {
+  margin: 0;
+}
+
+/* Section */
+.pd-section {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Date picker row */
+.pd-date-picker {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Lists */
+.pd-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.pd-item {
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Buttons */
+.pd-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background: #4cafef;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.pd-btn:hover {
+  background: #3799db;
+}
+
+.pd-logout {
+  background: #e74c3c;
+}
+
+.pd-logout:hover {
+  background: #c0392b;
+}
+
+.pd-book {
+  background: #2ecc71;
+}
+
+.pd-book:hover {
+  background: #27ae60;
+}

@@ -1,0 +1,36 @@
+.register-container {
+  max-width: 350px;
+  margin: 60px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  text-align: center;
+}
+
+.register-title {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.register-input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #219150;
+}

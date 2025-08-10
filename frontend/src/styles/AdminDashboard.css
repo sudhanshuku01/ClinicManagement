@@ -1,0 +1,47 @@
+.ad-wrap {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.ad-title {
+  text-align: center;
+  color: #333;
+}
+
+.ad-btn-logout {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.ad-btn-logout:hover {
+  background: #cc0000;
+}
+
+.ad-subtitle {
+  margin-top: 20px;
+  color: #555;
+}
+
+.ad-empty {
+  color: #888;
+}
+
+.ad-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ad-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #fafafa;
+}
