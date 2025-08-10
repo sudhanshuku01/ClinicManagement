@@ -1,10 +1,3 @@
-Got it — I’ll create a **README.md** for your project that covers everything in your assignment: setup, backend, frontend, environment variables, and how to run it.
-
-Here’s your complete README:
-
----
-
-```markdown
 # MediBooker 🏥
 
 A full-stack clinic appointment booking system with **Admin** and **Patient** dashboards, built using **Node.js, Express, MongoDB** for the backend and **Vite + React** for the frontend.
@@ -12,7 +5,6 @@ A full-stack clinic appointment booking system with **Admin** and **Patient** da
 ## 📌 Features
 
 ### Patient
-
 - Register and Login
 - View available slots (with date range filter)
 - Book a slot
@@ -20,13 +12,11 @@ A full-stack clinic appointment booking system with **Admin** and **Patient** da
 - Logout
 
 ### Admin
-
 - Login
 - View all bookings (patient details, slot info, booking time)
 - Logout
 
 ### General
-
 - Role-based authentication (JWT)
 - Protected API routes
 - Environment variables for configuration
@@ -35,6 +25,7 @@ A full-stack clinic appointment booking system with **Admin** and **Patient** da
 ---
 
 ## 🗂 Project Structure
+
 ```
 
 backend/
@@ -45,14 +36,14 @@ backend/
 └── ...
 frontend/
 ├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── context/
-│ └── ...
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   └── ...
 ├── vite.config.js
 └── ...
 
-```
+````
 
 ---
 
@@ -77,7 +68,6 @@ frontend/
 
 ### 1️⃣ Clone the repository
 
-```
 
 ### 2️⃣ Backend Setup
 
@@ -135,7 +125,12 @@ npm run dev
 
 ### Admin Flow:
 
-1. Login as admin
+1. Login using the following credentials:
+
+   ```
+   Email: admin@gmail.com
+   Password: admin12345
+   ```
 2. View **All Bookings** list
 3. Logout
 
@@ -145,15 +140,15 @@ npm run dev
 
 ### Auth
 
-- `POST /api/register` → Register
-- `POST /api/login` → Login
+* `POST /api/register` → Register
+* `POST /api/login` → Login
 
 ### Slots
 
-- `GET /api/slots?from=YYYY-MM-DD&to=YYYY-MM-DD` → List available slots (Patient)
-- `POST /api/book/:slotId` → Book slot (Patient)
-- `GET /api/my-bookings` → My bookings (Patient)
-- `GET /api/all-bookings` → All bookings (Admin)
+* `GET /api/slots?from=YYYY-MM-DD&to=YYYY-MM-DD` → List available slots (Patient)
+* `POST /api/book` → Book slot (Patient)
+* `GET /api/my-bookings` → My bookings (Patient)
+* `GET /api/all-bookings` → All bookings (Admin)
 
 ---
 
@@ -173,6 +168,6 @@ JWT_SECRET=your_jwt_secret
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
-
+---
 
 
